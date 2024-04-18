@@ -1,2 +1,1 @@
-# NLP-project
-NLP course final project
+# NLP-RAG-for-Law 
