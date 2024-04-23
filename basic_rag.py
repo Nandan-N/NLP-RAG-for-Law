@@ -28,7 +28,7 @@ nest_asyncio.apply()
 import os
 import openai
 
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = "" # Add OpenAI key here!!!
 llm = OpenAI(temperature=0.1, model="gpt-3.5-turbo", max_tokens=512)
 def ParseandExtract(paths):
     text_splitter = TokenTextSplitter(
